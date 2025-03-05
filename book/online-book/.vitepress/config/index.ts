@@ -1,6 +1,7 @@
 import { sharedConfig } from './shared.js'
 import { jaConfig } from './ja'
 import { enConfig } from './en.js'
+import { ruConfig } from './ru'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 import { defineConfig } from 'vitepress'
 
@@ -13,5 +14,6 @@ export default (process.env.NODE_ENV === 'production'
   locales: {
     root: { label: 'English', lang: 'en', link: '/', ...enConfig },
     ja: { label: '日本語', lang: 'ja', link: '/ja', ...jaConfig },
+    ru: { label: 'Русский', lang: 'ru', link: '/ru', ...ruConfig },
   },
 })
