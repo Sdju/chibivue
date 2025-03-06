@@ -8,6 +8,7 @@ export const sharedConfig = defineConfig({
   lang: 'ja',
   srcDir: 'src',
   srcExclude: ['__wip'],
+  base: '/chibivue/',
   head: [
     [
       'link',
