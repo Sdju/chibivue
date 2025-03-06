@@ -377,4 +377,4 @@ export const ruConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
       text: 'Предложить изменения для этой страницы',
     },
   },
-} 
+}
